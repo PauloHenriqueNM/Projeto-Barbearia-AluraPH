@@ -1,0 +1,181 @@
+header {
+    background-color: rgb(112, 216, 219);
+    padding: 20px 0;
+}
+
+.caixamenu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 120px; 
+    right: 0;  
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 16px; 
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(238, 11, 11);
+}
+
+.produtos {
+    width: 940px;
+    margin: 10px auto;
+    padding: 50px auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 3% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px black solid;
+    border-radius: 12px;
+}
+
+.produtos li:hover {
+    border-color: rgb(255, 60, 12);
+}
+
+.produtos li:active {
+    border-color: rgb(0, 255, 0);
+}
+
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produtop {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.descricao {
+    font-size: 18px;   
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 42px 0;
+    margin-top: 40px;
+}
+
+.copy {
+    color: white;
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 35px 0;
+}
+
+form label,form legend {
+    display: block;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+.input-padrão {
+    display: block;
+    margin: 0 0 10px;
+    padding: 7px 7px;
+    width: 40%;
+    font-size: 18px;
+}
+
+select {
+   margin: 5px 0;
+   margin-left: 10%;
+    border: 1px solid black;
+   border-radius: 3px;
+    width: 14%;
+   height: 6%;
+   text-align: center;
+   padding: 3px;
+   font-size: 17px;
+   font-weight: bold;
+   transition: 1s all;
+}
+
+select:hover {
+    transform: scale(1.12);
+}
+
+.checkbox {
+    margin: 22px 0px;
+}
+
+.enviar {
+    width: 42%;
+    padding: 12px 0;
+    background: rgb(112, 216, 219);
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.8s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(25, 137, 141);
+    transform: scale(1.12);
+}
+
+.atendimento {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 12px 0;
+    margin-left: 10%;
+}
+
+table {
+    margin: 20px e 40px;
+    border: 1px solid black; 
+    width: 42%;  
+}
+
+thead {
+    background: rgb(112, 216, 219);
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 18px;
+}
+
